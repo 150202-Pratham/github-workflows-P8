@@ -1,0 +1,14 @@
+name: Greet on New Commit
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  greet-on-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet on new commit
+        run: echo "🎉 A new commit has been pushed to the repository! Keep up the good work! 🚀"
