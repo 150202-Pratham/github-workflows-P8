@@ -9,6 +9,6 @@ jobs:
     steps:
       - name: Fun Echo
         run: |
-          echo "🐍 Keep coding!"
+          echo "🐍 Keep Coding!"
           echo "🚀 Push Received!"
           echo "🔥 Stay Awesome!"
